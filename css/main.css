@@ -1,0 +1,564 @@
+/* Initial Style */
+
+
+
+a {
+    transition: linear 0.3s all;
+    color: black;
+}
+
+.btn {
+    transition: linear 0.3s all;
+}
+
+.trans {
+    transition: linear 0.3s all;
+}
+
+
+.brdr-right {
+    border-right: dashed 1px grey;
+}
+
+
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        margin-top: 10%;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+.fade-in {
+    animation: fadein 1s normal;
+}
+
+.center {
+    text-align: center;
+}
+
+.center-box {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.left-al {
+    text-align: left;
+}
+
+.right-al {
+    text-align: right;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+/* Header */
+
+header  {
+    /* background-image: url(../images/header-background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; */
+    height: 662px;
+}
+
+header .container-fluid {
+    color: white;
+    text-align: center;
+    position: relative;
+    display: block;
+    height: 100%;
+}
+
+#header-title {
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+#header-title h1 {
+    font-size: 50px;
+}
+
+#header-title p {
+    font-size: 20px;
+}
+#header-title .btn {
+    background: none;
+    color: white;
+    border: 2px white solid;
+    border-radius: 50px;
+}
+
+#header-title .btn:hover {
+    color: black;
+    background: white;
+}
+.header-nav a {
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+}
+
+.header-nav {
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    bottom: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+.header-nav a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+}
+
+/* Navigation Bar */
+
+
+.navbar {
+    background: #222222;
+    border-radius: 0;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+
+
+.sticky-top{
+    position:-webkit-sticky;
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+
+/* What to Expect */
+#what-to-expect {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons i {
+    font-size: 70px;
+}
+
+.icons p {
+    color: rgba(50, 50, 50, 1);
+}
+
+
+
+
+/* What to Expect when working */
+.when-working {
+    height: 662px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.when-working .jumbotron {
+    color: white;
+    background: none;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.when-working-title {
+    height: 662px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.when-working-title .jumbotron {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    padding: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-no-bg-white {
+    background: none;
+    color: white;
+    border: 2px white solid;
+    border-radius: 50px;
+}
+
+.btn-no-bg-white:hover {
+    color: black;
+    background: white;
+}
+/* Footer */
+
+/*	footer
+/*----------------------------------------------------*/
+.footer{
+	background-color: #191919;
+	padding: 50px 0;
+}
+
+.footer .footer-box{
+	box-shadow: none; 
+	border-radius: 0;
+	background-color: transparent; 
+	border-color: #fcfcfc;
+    min-height: 185px;
+}
+
+.footer .footer-box .schedule.list-unstyled li {
+    color: #999;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.footer .footer-box strong i{
+    float: left;
+	color: #fff;
+	font-size: 30px;
+	line-height: 20px;
+	margin-right: 10px;
+}
+
+.footer .footer-box strong {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.footer .footer-box p{
+    font-size: 13px;
+	margin-bottom: 0;
+    color: #999;
+}
+
+.footer .contact-box p{
+    margin-bottom: 5px;
+}
+
+.footer .service-box li{
+    color: #999;
+    font-size: 13px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.footer .service-box li:before{
+    content: '';
+    background-color: #999;
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 1px;
+    top: 10px;
+    left: 0;    
+}
+
+
+
+/* footer */
+.footer.f-bottom{
+    padding: 0;
+	background-color: #101010;
+}
+
+.footer.f-bottom p {
+    color: #aaa;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    margin-bottom: 22px;
+    margin-top: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 1px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.footer.f-bottom p a{
+	color: #fff;
+	text-decoration: none;
+}
+    
+
+/* Slide Animation */
+
+.slideanim {
+    visibility: hidden;
+}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible !important; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(100%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+/* Get Started */
+.get-started {
+    color: rgb(68, 68, 68);
+    position: relative;
+}
+
+.btn-next-footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    text-align: center;
+    line-height: 50px;
+    background-color: #0699b3;
+    z-index: 1;
+    border: none;
+}
+
+.btn-cancel-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    text-align: center;
+    line-height: 50px;
+    background-color: #b0e2eb;
+    z-index: 1;
+    color: black;
+    border: none;
+}
+
+.btn-next-footer:hover {
+    color: white;
+}
+.btn-cancel-footer:hover {
+    color: white;
+}
+
+
+
+.mymodal {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 101;
+}
+
+
+/* Training */
+
+.glyphicon-folder-close {
+    color: #FFE793;
+}
+
+.blue-file {
+    color: #007ACC;
+}
+
+.red-file {
+    color: #D24625;
+}
+
+.green-file {
+    color: #25D245;
+}
+
+.min-height-screen {
+    min-height: 662px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query since this is the default in Bootstrap */
+
+@media only screen and (max-width: 360px) {
+    .get-started-img {
+        width: 100%;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+    #header-title h1 {
+        font-size: 30px;
+    }
+    
+    #header-title p {
+        font-size: 18px;
+    }
+
+    .sm-margin {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+}
+
+@media only screen and (min-width: 576px) {
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .header-nav a {
+        display: inline-block;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px)  {
+    .sm-margin {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* .navbar-nav > li > a, .navbar-brand {
+        padding-top:5px !important;
+        padding-bottom:0 !important;
+        height: 30px; }
+    .navbar {
+        min-height:30px !important;
+        border-radius: 0px !important;
+        font-size: 12px;
+    } */
+
+    .get-started h1 {
+        font-size: 70px;
+        text-align: center;
+    }
+    .get-started p {
+        font-size: 25px;
+        text-align: center;
+    }
+    .get-started-img {
+        width: 100%;
+    }
+    .center-height {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .brdr-right {
+        border: none;
+    }
+
+    .get-started h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+    .get-started p {
+        font-size: 18px;
+        text-align: center;
+    }
+    .get-started-img {
+        width: 100%;
+    }
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .header-nav a {
+        display: inline-block;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
+    }
+
+    .mymodal {
+        width: 90%;
+        height: 90%;
+        position: fixed;
+        top: 5%;
+        left: 5%;
+        z-index: 101;
+        border: solid 5px rgba(0, 0, 0 , 0.8);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px)  {
+    /* .when-working {
+        background-attachment: initial;
+    } */
+}
+
+
+
+.stickframe {
+    top: 75px;
+    right: 50px;
+    width: 250px;
+    position: fixed;
+    height: 100%;
+}
